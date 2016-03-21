@@ -1,29 +1,41 @@
-name: Conlan Law
-favicon: null
-layout_spectrum: 0.59871
-typography_spectrum: 1
 title: Conlan Law
 cta:
-  domain: null
-  bucket: null
   version: null
+  bucket: null
+  domain: null
+layout_spectrum: 0.9510638
+favicon: null
+name: Conlan Law
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
+  brandStrength: 0.8125
+  lightness: 0.5
+  saturation: 0.5625
+  rhythmicContrast: 0.4723404
   brandColors:
     - '#f1592a'
     - '#818285'
     - '#ffffff'
     - '#000000'
     - '#6b2713'
-  brandStrength: 0.8125
-  lightness: 0.5
-  saturation: 0.5625
-  rhythmicContrast: 0.5
-purpose: []
+typography_spectrum: 1
